@@ -1,1 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T08:48:11.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45" version="14.4.4" etag="BMYECyEieeB4FalVmqAv" type="github"><diagram id="lUdvnokLZmkEdVKuo3iB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-08T09:03:26.478Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45" etag="-Kk-rR7iSvSY2pTu95aF" version="14.4.4" type="github">
+  <diagram id="lUdvnokLZmkEdVKuo3iB" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-1" target="8fWVOLM9RxqzXMok-uL7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-1" value="看板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-2" target="8fWVOLM9RxqzXMok-uL7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-2" target="8fWVOLM9RxqzXMok-uL7-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-2" value="流程主题" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-4" target="8fWVOLM9RxqzXMok-uL7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-4" target="8fWVOLM9RxqzXMok-uL7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-4" value="流程明细" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-6" target="8fWVOLM9RxqzXMok-uL7-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-6" value="流程节点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-8" value="点击主题开始一个流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="320" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-9" value="日常事务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-16" value="一个主题只能产生一个流程明细" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="290" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-18" value="一个流程明细对应一个workflow_no" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-21" target="8fWVOLM9RxqzXMok-uL7-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-21" value="流程主题" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-24" target="8fWVOLM9RxqzXMok-uL7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-24" target="8fWVOLM9RxqzXMok-uL7-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-24" value="流程明细" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-25" value="流程节点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-26" value="点击主题开始一个流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="710" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-27" value="一个主题只能产生一个流程明细" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="590" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-28" value="一个流程明细对应一个workflow_no" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-29" value="一个流程主题可以产生多个明细" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="680" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-32" value="一个看板主题对应access_node中的一条数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-34" target="8fWVOLM9RxqzXMok-uL7-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-34" value="每一个节点对应一个任务流，如果不需要任务就不产生" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-36" value="一个任务流对应task_user中的一条数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
