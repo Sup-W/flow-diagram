@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T09:03:26.478Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45" etag="-Kk-rR7iSvSY2pTu95aF" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-08T09:08:40.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45" etag="zvpTS6huSXlPh9uKLP-V" version="14.4.4" type="github">
   <diagram id="lUdvnokLZmkEdVKuo3iB" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -66,14 +66,19 @@
         <mxCell id="8fWVOLM9RxqzXMok-uL7-24" value="流程明细" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="710" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-25" target="8fWVOLM9RxqzXMok-uL7-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8fWVOLM9RxqzXMok-uL7-25" value="流程节点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8fWVOLM9RxqzXMok-uL7-26" value="点击主题开始一个流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="710" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8fWVOLM9RxqzXMok-uL7-27" value="一个主题只能产生一个流程明细" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="590" width="180" height="20" as="geometry" />
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-28" target="8fWVOLM9RxqzXMok-uL7-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8fWVOLM9RxqzXMok-uL7-28" value="一个流程明细对应一个workflow_no" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="850" width="120" height="60" as="geometry" />
@@ -92,6 +97,35 @@
         </mxCell>
         <mxCell id="8fWVOLM9RxqzXMok-uL7-36" value="一个任务流对应task_user中的一条数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-39" target="8fWVOLM9RxqzXMok-uL7-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="610" />
+              <mxPoint x="980" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-39" value="每一个节点对应一个任务流，如果不需要任务就不产生" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-40" value="一个任务流对应task_user中的一条数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="580" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-42" value="所以只需要流程+workflow_no 就可以确定一个主题" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-44" value="一个workflow有多个节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="880" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="491.02" as="sourcePoint" />
+            <mxPoint x="864" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-46" value="一个workflow有多个节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="491.02" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
