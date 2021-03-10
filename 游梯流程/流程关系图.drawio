@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T09:08:40.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45" etag="zvpTS6huSXlPh9uKLP-V" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T10:52:35.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45" etag="34nXEfd299Hd4_0VR0wO" version="14.4.4" type="github">
   <diagram id="lUdvnokLZmkEdVKuo3iB" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -45,7 +45,7 @@
         <mxCell id="8fWVOLM9RxqzXMok-uL7-9" value="日常事务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8fWVOLM9RxqzXMok-uL7-16" value="一个主题只能产生一个流程明细" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-16" value="一个主题只能产生一个流程明细" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="580" y="290" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8fWVOLM9RxqzXMok-uL7-18" value="一个流程明细对应一个workflow_no" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -83,10 +83,10 @@
         <mxCell id="8fWVOLM9RxqzXMok-uL7-28" value="一个流程明细对应一个workflow_no" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8fWVOLM9RxqzXMok-uL7-29" value="一个流程主题可以产生多个明细" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-29" value="一个流程主题可以产生多个明细" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="590" y="680" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8fWVOLM9RxqzXMok-uL7-32" value="一个看板主题对应access_node中的一条数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-32" value="一个看板主题对应access_node中的一条数据" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="330" y="190" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8fWVOLM9RxqzXMok-uL7-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8fWVOLM9RxqzXMok-uL7-34" target="8fWVOLM9RxqzXMok-uL7-36">
@@ -126,6 +126,12 @@
         </mxCell>
         <mxCell id="8fWVOLM9RxqzXMok-uL7-46" value="一个workflow有多个节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="491.02" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-47" value="&lt;font style=&quot;font-size: 18px&quot;&gt;不同：一个看板主题只能产生一条流程&lt;br&gt;一个日常事务主题可以产生多条流程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="90" y="505" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8fWVOLM9RxqzXMok-uL7-48" value="&lt;font style=&quot;font-size: 18px&quot;&gt;accsee_node和task_user用同一个serials&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="65" y="600" width="370" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
